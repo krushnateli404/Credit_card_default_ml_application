@@ -1,0 +1,19 @@
+[2023-09-16 10:00:46,157] 225 werkzeug -WARNING  * Debugger is active!
+[2023-09-16 10:00:46,166] 225 werkzeug -INFO  * Debugger PIN: 109-549-878
+[2023-09-16 10:00:47,111] 225 werkzeug -WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2023-09-16 10:00:47,112] 225 werkzeug -INFO  * Running on http://192.168.1.5:8000/ (Press CTRL+C to quit)
+[2023-09-16 10:00:50,016] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:00:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-09-16 10:00:50,032] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:00:50] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-09-16 10:00:50,279] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:00:50] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-09-16 10:00:50,614] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:00:50] "GET /predict?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2023-09-16 10:00:50,615] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:00:50] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-09-16 10:00:50,860] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:00:50] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-09-16 10:00:58,132] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:00:58] "GET /predict HTTP/1.1" 200 -
+[2023-09-16 10:01:48,702] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:01:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-09-16 10:01:48,746] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:01:48] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-09-16 10:01:48,947] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:01:48] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-09-16 10:01:49,282] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:01:49] "GET /predict?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2023-09-16 10:01:49,286] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:01:49] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-09-16 10:01:49,533] 225 werkzeug -INFO 127.0.0.1 - - [16/Sep/2023 10:01:49] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-09-16 10:02:23,802] 225 werkzeug -INFO  * Detected change in 'c:\\users\\krushna\\creditcarddefult\\app.py', reloading

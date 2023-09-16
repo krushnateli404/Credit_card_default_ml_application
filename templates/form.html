@@ -1,0 +1,153 @@
+<html>
+<style>
+    body{
+        background-color: aqua;
+    }
+    .form-group{
+        margin: 3px 3px ;
+        padding: 3px 3px;
+
+    }
+    .form{
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+</style>
+
+<body>
+    <form action="{{url_for('predict_datapoint')}}" method="POST" class="form">
+        <div class="form-group">
+        <label for="LIMIT_BAL">Limit balance: </label>
+        <input type="text" name="LIMIT_BAL" id="LIMIT_BAL" placeholder="Enter the limit balance">
+        </div>
+        
+        <div class="form-group">
+            <label for="SEX">Gender: </label>
+        <select id="SEX" name="SEX">
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Others</option>
+        </select>
+        </div>
+
+        <div class="form-group"> 
+            <label for="SEX">EDUCATION: </label>
+            <select id="EDUCATION" name="EDUCATION">
+                <option value="1">Gradutes school</option>
+                <option value="2">University</option>
+                <option value="3">High school</option>
+                <option value="4">Others</option>
+                <option value="5">Unknown</option>
+              </select>
+
+        </div>
+        
+        
+     
+       <div class="form-group">
+        <label for="SEX">MARRIAGE: </label>
+        <select id="MARRIAGE" name="MARRIAGE">
+            <option value="1">Married</option>
+            <option value="2">Single</option>
+            <option value="3">Others</option>
+        </select>
+
+       </div>
+
+        
+        
+
+        <div class="form-group">
+            <label for="AGE">Age: </label>
+            <input type="text" id="AGE" name="AGE" placeholder="Enter age "> 
+        </div>
+       <h3 >(-1=pay delay, 1=one month delay, 2=two months delay, … 9=delay for nine months and above)</h3>
+        <div class="form-group">
+            <label for="PAY_0">Payment_0: </label>
+            <input type="number" id="PAY_0" name="PAY_0" placeholder="Enter pay_0">
+        </div>
+        <div class="form-group">
+            <label for="PAY_1">Payment_1: </label>
+            <input type="number" id="PAY_1" name="PAY_1" placeholder="Enter pay_1">
+        </div>
+        <div class="form-group">
+            <label for="PAY_2">Payment_2: </label>
+            <input type="number" id="PAY_2" name="PAY_2" placeholder="Enter pay_2">
+        </div>
+        <div class="form-group">
+            <label for="PAY_3">Payment_3: </label>
+            <input type="number" id="PAY_3" name="PAY_3" placeholder="Enter pay_3">
+        </div>
+        <div class="form-group">
+            <label for="PAY_4">Payment_4: </label>
+            <input type="number" id="PAY_4" name="PAY_4" placeholder="Enter pay_4">
+        </div>
+        <div class="form-group">
+            <label for="PAY_5">Payment_5: </label>
+            <input type="number" id="PAY_5" name="PAY_5" placeholder="Enter pay_5">
+        </div>
+
+
+        <br>
+        <br>
+        <div class="form-group">
+            <label for="BILL_AMT1">Bill amount_1: </label>
+            <input type="number" id="BILL_AMT1" name="BILL_AMT1" placeholder="Enter bill_amt1">
+        </div>
+        <div class="form-group">
+            <label for="BILL_AMT2">Bill amount_2: </label>
+            <input type="number" id="BILL_AMT2" name="BILL_AMT2" placeholder="Enter bill_amt2">
+        </div>
+        <div class="form-group">
+            <label for="BILL_AMT3">Bill amount_3: </label>
+            <input type="number" id="BILL_AMT3" name="BILL_AMT3" placeholder="Enter bill_amt3">
+        </div>
+        <div class="form-group">
+            <label for="BILL_AMT4">Bill amount_4: </label>
+            <input type="number" id="BILL_AMT4" name="BILL_AMT4" placeholder="Enter bill_amt4">
+        </div>
+        <div class="form-group">
+            <label for="BILL_AMT5">Bill amount_5: </label>
+            <input type="number" id="BILL_AMT5" name="BILL_AMT5" placeholder="Enter bill_amt5">
+        </div>
+        <div class="form-group">
+            <label for="BILL_AMT6">Bill amount_6: </label>
+            <input type="number" id="BILL_AMT6" name="BILL_AMT6" placeholder="Enter bill_amt6">
+        </div>
+        
+        <br>
+        <br>
+
+        <div class="form-group">
+            <label for="PAY_AMT1">Payment amount 1: </label>
+            <input type="number" id="PAY_AMT1" name="PAY_AMT1" placeholder="Enter payment amount 1">
+        </div>
+        <div class="form-group">
+            <label for="PAY_AMT2">Payment amount 2: </label>
+            <input type="number" id="PAY_AMT2" name="PAY_AMT2" placeholder="Enter payment amount 2">
+        </div>
+        <div class="form-group">
+            <label for="PAY_AMT3">Payment amount 3: </label>
+            <input type="number" id="PAY_AMT3" name="PAY_AMT3" placeholder="Enter payment amount 3">
+        </div>
+        <div class="form-group">
+            <label for="PAY_AMT4">Payment amount 4: </label>
+            <input type="number" id="PAY_AMT4" name="PAY_AMT4" placeholder="Enter payment amount 4">
+        </div>
+        <div class="form-group">
+            <label for="PAY_AMT5">Payment amount 5: </label>
+            <input type="text" id="PAY_AMT5" name="PAY_AMT5" placeholder="Enter payment amount 5">
+        </div>
+        <div class="form-group">
+            <label for="PAY_AMT6">Payment amount 6: </label>
+            <input type="text" id="PAY_AMT6" name="PAY_AMT6" placeholder="Enter payment amount 6">
+        </div>
+
+        <div style="clear:both;"></div>
+     <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

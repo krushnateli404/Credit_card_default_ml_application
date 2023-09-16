@@ -1,0 +1,6 @@
+[2023-09-14 23:18:34,370] 225 werkzeug -WARNING  * Debugger is active!
+[2023-09-14 23:18:34,374] 225 werkzeug -INFO  * Debugger PIN: 809-358-215
+[2023-09-14 23:18:34,864] 225 werkzeug -WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2023-09-14 23:18:34,865] 225 werkzeug -INFO  * Running on http://192.168.1.11:8000/ (Press CTRL+C to quit)
+[2023-09-14 23:18:36,635] 225 werkzeug -INFO  * Detected change in 'C:\\Users\\KRUSHNA\\CreditCardDefult\\app.py', reloading

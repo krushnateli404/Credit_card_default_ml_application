@@ -1,0 +1,27 @@
+[2023-09-14 16:11:09,318] 22 root -INFO Start data ingestion
+[2023-09-14 16:11:22,724] 25 root -INFO Raw data reading completely...
+[2023-09-14 16:11:23,593] 33 root -INFO train and test spit done...
+[2023-09-14 16:11:24,446] 39 root -INFO Data ingestion complete....
+[2023-09-14 16:11:24,561] 60 root -INFO Read train and test data completed
+[2023-09-14 16:11:24,579] 61 root -INFO Train dataframe head: 
+      ID  LIMIT_BAL  SEX  EDUCATION  MARRIAGE  AGE  PAY_0  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  default.payment.next.month
+0  23322   280000.0    2          2         1   34     -2     -2     -2     -2     -2     -2     6398.0     8321.0    12798.0     3581.0    10310.0    11717.0    8331.0   12805.0    3587.0   10361.0   11734.0    8800.0                           0
+1   4551    30000.0    1          3         1   64      2      2      2      0      0      0    13594.0    14078.0    14547.0    15304.0    16056.0    20196.0    1000.0    1000.0    1000.0    1000.0    4600.0       0.0                           1
+2  10423   200000.0    2          1         2   35      0     -1      0      0      0      0    13766.0    39072.0    44758.0    45571.0    40592.0     7145.0   39124.0   15000.0    1622.0    2068.0    1000.0    2031.0                           0
+3   5789   200000.0    2          2         1   44     -2     -2     -2     -2     -2     -2        0.0      138.0        0.0        0.0     1675.0       69.0     138.0       0.0       0.0    1675.0      69.0   39411.0                           0
+4   1935   300000.0    2          1         2   28      2     -1     -1      0      0     -2     1314.0      168.0     1080.0     1080.0        0.0        0.0     170.0    1080.0       0.0       0.0       0.0    2500.0                           1
+[2023-09-14 16:11:24,591] 62 root -INFO Test dataframe head: 
+      ID  LIMIT_BAL  SEX  EDUCATION  MARRIAGE  AGE  PAY_0  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  default.payment.next.month
+0  28479   100000.0    2          2         2   35     -1     -1     -1     -1     -1      0      326.0     2691.0      326.0      326.0      652.0      326.0    2691.0     326.0     326.0     652.0       0.0     326.0                           1
+1   3957   380000.0    1          1         2   33      0      0      0      0      0      0    70591.0    76715.0    80080.0    81162.0    89571.0    96627.0   10000.0    5000.0    5000.0   10000.0   10000.0   10000.0                           0
+2   7015   150000.0    2          2         2   41     -1     -1     -1      0     -1     -1     2371.0    40800.0     1995.0      285.0     4926.0     5523.0   40824.0    2340.0       0.0    4970.0    5527.0     903.0                           0
+3  18660    50000.0    2          2         1   22      0      0      2      0      0      0    25561.0    26951.0    26570.0    28085.0    27009.0    28142.0    2134.0    1000.0    2001.0     910.0    1510.0     500.0                           0
+4  15275   170000.0    2          3         2   29      0      0      0      0      0      0   116048.0   117485.0   119050.0   120225.0   122345.0   124302.0    4200.0    4300.0    4400.0    4518.0    4500.0    5000.0                           1 
+[2023-09-14 16:11:24,591] 63 root -INFO Obtaining preprocessing object
+[2023-09-14 16:11:24,591] 27 root -INFO Data Transforamtion initiated
+[2023-09-14 16:11:24,591] 34 root -INFO Pipeline Initiated
+[2023-09-14 16:11:24,802] 75 root -INFO Applying preprocessing object on training and testing datasets.
+[2023-09-14 16:11:24,807] 82 root -INFO Preprocessor pickle file saved
+[2023-09-14 16:11:24,809] 28 root -INFO Splitting Dependant and Independent variables from train and test data
+[2023-09-14 16:11:38,443] 46 root -INFO Model report : {'RF': 0.8222666666666667, 'DTC': 0.7282666666666666, 'logistic': 0.8132}
+[2023-09-14 16:11:38,443] 58 root -INFO Best model found,Model name: RF,Accuracy_score: 0.8222666666666667

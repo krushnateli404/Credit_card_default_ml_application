@@ -1,0 +1,12 @@
+[2023-09-14 19:41:47,995] 225 werkzeug -WARNING  * Debugger is active!
+[2023-09-14 19:41:48,003] 225 werkzeug -INFO  * Debugger PIN: 809-358-215
+[2023-09-14 19:41:48,977] 225 werkzeug -WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2023-09-14 19:41:48,979] 225 werkzeug -INFO  * Running on http://192.168.1.11:8000/ (Press CTRL+C to quit)
+[2023-09-14 19:41:50,050] 225 werkzeug -INFO 127.0.0.1 - - [14/Sep/2023 19:41:50] "GET /predict HTTP/1.1" 200 -
+[2023-09-14 19:42:57,032] 225 werkzeug -INFO 127.0.0.1 - - [14/Sep/2023 19:42:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-09-14 19:42:57,088] 225 werkzeug -INFO 127.0.0.1 - - [14/Sep/2023 19:42:57] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-09-14 19:42:57,287] 225 werkzeug -INFO 127.0.0.1 - - [14/Sep/2023 19:42:57] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-09-14 19:42:57,615] 225 werkzeug -INFO 127.0.0.1 - - [14/Sep/2023 19:42:57] "GET /predict?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2023-09-14 19:42:57,620] 225 werkzeug -INFO 127.0.0.1 - - [14/Sep/2023 19:42:57] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-09-14 19:42:57,883] 225 werkzeug -INFO 127.0.0.1 - - [14/Sep/2023 19:42:57] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
